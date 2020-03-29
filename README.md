@@ -8,7 +8,7 @@
 
 ### The Basics
 - Printing and Maths
-  - Project Ideas?
+  - Restaurant Menu
 - Variables
   - Personal Robot Greeter
   - Character Creator
