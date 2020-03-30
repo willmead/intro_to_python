@@ -42,3 +42,9 @@
 ### Coding Bat Exercises
 Extremely useful after functions have been learned
 https://codingbat.com/python
+
+### TODO
+- Clean up Battle Sim:
+  - status function should return a string, not print.
+  - attack function should print one string and the if statement should only calculate damage.
+  - 
