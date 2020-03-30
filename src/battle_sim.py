@@ -12,26 +12,29 @@ class Character():
     def __init__(self, name):
         self.name = name
         self.health = 100
-        self.alive = True
         self.damage = 20
+        self.alive = True
 
     def status(self):
-        print(f"{self.name}: ")
-        print(f"Health: {self.health}")
-        if self.health <= 0:
+        if self.health < 1:
             player.alive = False
+        return f"{self.name}: {self.health}"
 
     def attack(self, target):
-        print(f"{self.name} attacks!")
-
         random_num = random.randint(1,6)
         if random_num == 1:
-            print("It's a critical hit!")
-            target.health -= self.damage * 2
+            result = "It's a critical hit!"
+            damage = self.damage * 2
         elif random_num == 2:
-            print("Oh no, they miss!")
+            result = "Oh no, they miss!"
+            damage = 0
         else:
-            target.health -= self.damage
+            result = "The strike lands hard."
+            damage = self.damage
+
+        target.health -= damage
+        print(f"{self.name} attacks! {result}")
+
 
     def drink_potion(self):
         print(f"{self.name} drinks a potion and is healed by 10hp.")
@@ -61,8 +64,8 @@ while player.alive and enemy.alive:
         enemy.attack(player)
 
     # Summarise
-    player.status()
-    enemy.status()
+    print(player.status())
+    print(enemy.status())
 
 # After Battle
 if player.alive:
