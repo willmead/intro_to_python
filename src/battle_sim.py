@@ -18,7 +18,7 @@ class Character():
     def status(self):
         if self.health < 1:
             player.alive = False
-        return f"{self.name}: {self.health}"
+        print(f"{self.name}: {self.health}")
 
     def attack(self, target):
         random_num = random.randint(1,6)
@@ -31,14 +31,20 @@ class Character():
         else:
             result = "The strike lands hard."
             damage = self.damage
-
         target.health -= damage
         print(f"{self.name} attacks! {result}")
-
 
     def drink_potion(self):
         print(f"{self.name} drinks a potion and is healed by 10hp.")
         self.health += 10
+
+    def choose_action(self, action, enemy):
+        if action == "ATTACK":
+            self.attack(enemy)
+        elif action == "POTION":
+            self.drink_potion()
+        else:
+            print(f"{self.name} can't do that!")
 
 
 # Creating Characters
@@ -49,23 +55,16 @@ enemy = Character('Drobwyn')
 while player.alive and enemy.alive:
 
     # Player's Turn
-    action = input(f"Does {player.name} ATTACK or drink a POTION? ")
-    if action == "ATTACK":
-        player.attack(enemy)
-    elif action == "POTION":
-        player.drink_potion()
-    else:
-        print(f"{player.name} can't do that!")
+    player_action = input(f"Does {player.name} ATTACK or drink a POTION? ")
+    player.choose_action(player_action, enemy)
 
     # Enemy's Turn
-    if enemy.health < 30:
-        enemy.drink_potion()
-    else:
-        enemy.attack(player)
+    enemy_action = random.choice(["ATTACK", "POTION"])
+    enemy.choose_action()
 
     # Summarise
-    print(player.status())
-    print(enemy.status())
+    player.status()
+    enemy.status()
 
 # After Battle
 if player.alive:

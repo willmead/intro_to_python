@@ -45,6 +45,4 @@ https://codingbat.com/python
 
 ### TODO
 - Clean up Battle Sim:
-  - status function should return a string, not print.
-  - attack function should print one string and the if statement should only calculate damage.
-  - 
+  - perhaps the Character class should have a self.enemy property.
