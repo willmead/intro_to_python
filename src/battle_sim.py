@@ -60,7 +60,7 @@ while player.alive and enemy.alive:
 
     # Enemy's Turn
     enemy_action = random.choice(["ATTACK", "POTION"])
-    enemy.choose_action(enemy_action)
+    enemy.choose_action(enemy_action, player)
 
     # Summarise
     player.status()
