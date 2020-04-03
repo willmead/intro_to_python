@@ -21,8 +21,8 @@ print(f"I have chosen a number between 1 and 100.")
 print(f"You have {num_guesses} chances to guess it.")
 
 # Game Loop
-for go in range(num_guesses):
-    print(f"You have {num_guesses - go} guesses left.")
+for guess in range(num_guesses, 0, -1):
+    print(f"You have {guess} guesses left.")
 
     guess = int(input('What is your guess? '))
 
