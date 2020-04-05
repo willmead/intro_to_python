@@ -42,6 +42,8 @@
 ### Coding Bat Exercises
 Extremely useful after functions have been learned
 https://codingbat.com/python
+https://exercism.io
+https://projecteuler.net/
 
 ### TODO
 - Clean up Battle Sim:
