@@ -9,11 +9,13 @@
 ### The Basics
 - Printing and Maths
   - Restaurant Menu
+  - Robot Booting Up
 - Variables
   - Personal Robot Greeter
   - Character Creator
 - Conditional Logic (if/else)
   - Personal Robot Greeter 2.0
+  - First Text Game
 - For Loops
   - Fizz Buzz
   - Public Robot Greeter
