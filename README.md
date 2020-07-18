@@ -6,41 +6,24 @@
 - What is Python?
 - What will we learn?
 
-### The Basics
-- Printing and Maths
-  - Restaurant Menu
-  - Robot Booting Up
+### The Syllabus
+- Printing
 - Variables
-  - Personal Robot Greeter
-  - Character Creator
 - Conditional Logic (if/else)
-  - Personal Robot Greeter 2.0
-  - Opinions!
-  - First Text Game
-- For Loops
-  - Fizz Buzz
-  - Public Robot Greeter
-  - Number Guessing Game
+- Loops (for / while)
 - Functions
-  - Calculator
 - Object Oriented Programming
-  - Character Creator 2.0
-  - RPG Battle Simulator
 
 ### About the Projects
-- Personal / Public Robot Greeter
-  - We are coding a device like an Amazon Alexa, or Apple's Siri, or Microsoft Cortana.
-- Character Creator
-  - We are working for Epic Games, or EA and creating a small character creator for their new game.
-- Number Guessing Game
-  - ?
-- Fizz Buzz
-  - ?
-- Calculator
-  - Part of a new OS?
-  - Homework Robot
-- RPG Battle Simulator
-  - EA, or Epic Games
+- The goal of this course is to demonstrate to students how the world around them runs on code.
+- We look at several big companies / technologies as examples of code in the real world.
+
+### Days
+Day 1 - Rockets
+Day 2 -
+Day 3 -
+Day 4 - Games
+Day 5 -
 
 ### Coding Bat Exercises
 Extremely useful after functions have been learned
