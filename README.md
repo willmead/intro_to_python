@@ -15,13 +15,14 @@
   - Character Creator
 - Conditional Logic (if/else)
   - Personal Robot Greeter 2.0
+  - Opinions!
   - First Text Game
 - For Loops
   - Fizz Buzz
   - Public Robot Greeter
   - Number Guessing Game
 - Functions
-  - Calculator 
+  - Calculator
 - Object Oriented Programming
   - Character Creator 2.0
   - RPG Battle Simulator
