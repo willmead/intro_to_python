@@ -20,9 +20,13 @@
 
 ### Days
 Day 1 - Rockets
+
 Day 2 -
+
 Day 3 -
+
 Day 4 - Games
+
 Day 5 -
 
 ### Coding Bat Exercises
