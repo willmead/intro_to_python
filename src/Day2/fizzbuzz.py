@@ -1,13 +1,5 @@
-"""
-Fizz Buzz Game
-Date: 28/03/20
-Author: Will
+for number in range(1, 101):
 
-A fizzbuzz game for learning how for loops work
-in conjuction with conditional statements.
-"""
-
-for number in range(0, 100):
     if number % 15 == 0:
         print("FizzBuzz")
     elif number % 3 == 0:

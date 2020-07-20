@@ -21,7 +21,7 @@
 ### Days
 Day 1 - Rockets
 
-Day 2 -
+Day 2 - ? Schools / Houses
 
 Day 3 -
 
